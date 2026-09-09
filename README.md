@@ -1,6 +1,6 @@
 # Deploy and Host Opera (Cloud Browser) on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/opera?utm_medium=integration&utm_source=button&utm_campaign=opera)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/opera-browser?utm_medium=integration&utm_source=button&utm_campaign=opera-browser)
 
 This template runs a full desktop [Opera](https://www.opera.com/) browser in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-opera/) Selkies web interface. Open your Railway domain, log in, and you're inside a real browser running on the server — bookmarks, extensions, downloads, and sessions persist between visits.
 
