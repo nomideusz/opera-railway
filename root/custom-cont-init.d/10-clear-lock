@@ -1,0 +1,6 @@
+#!/bin/sh
+# Opera's profile lock names the container that took it, and every redeploy gets a new one, so
+# Opera sees a profile "in use on another computer" and stops before opening a window: an empty
+# desktop while Railway says SUCCESS. Its launcher means to clear this, but checks `pgrep opera`,
+# which finds the launcher itself.
+rm -f /config/.config/opera/Singleton*

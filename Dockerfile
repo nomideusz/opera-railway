@@ -1,4 +1,4 @@
-FROM linuxserver/opera:137.0.6036.63-ls295
+FROM linuxserver/opera:139.0.6053.22-ls300
 
 # Upstream starts Xvfb with a 15360x8640 screen, which pins ~600 MB for the
 # framebuffer alone and OOM-kills the desktop on Railway's 512 MB Trial plan.
@@ -8,4 +8,4 @@ ENV MAX_RES=3840x2160
 # ponytail: one custom-init script adds an unauthenticated /healthcheck
 # location for Railway's healthcheck prober; everything else is stock.
 COPY root/ /
-RUN chmod +x /custom-cont-init.d/20-healthcheck /custom-services.d/drop-file-cache /usr/local/bin/drop-file-cache
+RUN chmod +x /custom-cont-init.d/10-clear-lock /custom-cont-init.d/20-healthcheck /custom-services.d/drop-file-cache /usr/local/bin/drop-file-cache
