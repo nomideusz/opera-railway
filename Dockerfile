@@ -1,4 +1,4 @@
-FROM linuxserver/opera:139.0.6053.22-ls300
+FROM linuxserver/opera:139.0.6053.38-ls302
 
 # Upstream starts Xvfb with a 15360x8640 screen, which pins ~600 MB for the
 # framebuffer alone and OOM-kills the desktop on Railway's 512 MB Trial plan.
