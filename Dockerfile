@@ -1,4 +1,4 @@
-FROM linuxserver/opera:140.0.6074.36-ls305
+FROM linuxserver/opera:141.0.6089.33-ls308
 
 # MAX_RES capped the Xvfb screen on older X11 bases; this Wayland base ignores it.
 # 15-small-plan-resolution locks the desktop at 1920x1080 instead: on every plan, since
